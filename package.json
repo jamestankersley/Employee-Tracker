@@ -1,8 +1,14 @@
 {
   "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "employee tracker",
+  "description": "This is a GitHub repository for an employee tracker application.",
   "main": "index.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,15 +16,14 @@
     "type": "git",
     "url": "git+https://github.com/jamestankersley/Employee-Tracker.git"
   },
+  "keywords": [
+    "employee",
+    "tracker"
+  ],
   "author": "James Tankersley",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jamestankersley/Employee-Tracker/issues"
   },
-  "homepage": "https://github.com/jamestankersley/Employee-Tracker#readme",
-  "dependencies": {
-    "console.table": "^0.10.0",
-    "express": "^4.17.1",
-    "mysql": "^2.18.1"
-  }
+  "homepage": "https://github.com/jamestankersley/Employee-Tracker#readme"
 }
